@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Gotham, "Varela Round", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	background:#292929;
+	color:#bababa;
+	margin:0px;
+	padding:20px;
+}
+#header{
+	text-align:center;
+	font-size:24px;
+	text-shadow:0px 0px 20px rgba(200,210,250,0.6);
+	background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+	border:2px solid rgba(217,219,235,0.5);
+	padding:3px 20px 3px 20px;
+	border-radius:3px;
+	background:rgba(41,41,41,0.7);
+}
+.out-container{
+	background:rgba(224,217,235,0.2);
+	padding:40px;
+	border-radius:50px;
+}
+.det{
+	background:rgba(41,41,41,0.7);
+	border-radius:10px;
+}
+.cont{
+	padding:20px;
+}
+label{
+	display: block;
+    margin: 0px 0px 15px 0px;
+}
+label > span{
+    width: 150px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+span.required{
+    color:red;
+}
+input.input-field{
+    width: 48%;
+    color:#bababa;
+	
+}
+input,select{
+	background:rgba(41,41,41,1);
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	border:none;
+    border-bottom: 3px solid rgba(178,147,204,1.00);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+	color:#bababa;
+}
+input:focus{
+	border: 3px solid rgba(178,147,204,1.00);
+}
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+ 
+ 
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+.padding-2{
+    margin-left: 15px;
+    margin-top:7px;
+}
